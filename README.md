@@ -75,7 +75,7 @@ The model was trained using the following features, including the engineered and
 - `Max_BPM`
 - `Age`
 - `Gender` (numerically encoded)
-- One-hot encoded columns for `Exercise_Type`, `Workout_Frequency`, and `Experience_Level` (if present in the original data).
+- One-hot encoded columns for `Exercise_Type`, `Workout_Frequency`, and `Experience_Level`.
 
 **Data Preparation for Modeling:**
 - The dataset was split into features (X) and the target variable (y).
