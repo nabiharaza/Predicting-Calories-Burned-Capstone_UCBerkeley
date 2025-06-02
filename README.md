@@ -148,3 +148,6 @@ Further work could involve exploring more advanced feature engineering technique
 
 [View the notebook on GitHub](https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley/blob/main/main_notebook.ipynb)
 
+## Link to Google Collab Notebook with Plots and Printed Solutions
+
+[View the Google Collab notebook ](https://colab.research.google.com/drive/18VsX299-O3qMIhBVCyo7Hng0C3rnBrgS)
