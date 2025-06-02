@@ -146,6 +146,5 @@ Further work could involve exploring more advanced feature engineering technique
 
 ## Link to Jupyter Notebook
 
-[https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley/blob/main/main_notebook.ipynb]# Predicting-Calories-Burned-Capstone_UCBerkeley 
+[View the notebook on GitHub](https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley/blob/main/main_notebook.ipynb)
 
-##
