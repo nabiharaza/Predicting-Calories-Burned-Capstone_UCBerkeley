@@ -1,5 +1,9 @@
 ##  🔥 AI-Powered Prediction of Calories Burned During Workouts
-![img.png](media/metrics_running.png)
+<p align="left">
+  <img src="media/metrics_running.png" alt="Calorie burn metrics" width="500" align="right" style="margin-left: 20px;">
+  🤔 Ever wondered why your watch, treadmill, and trainer all give you different calorie burn numbers?<br>
+  <strong>This project solves that problem. 🙌🏻</strong>
+</p>
 
 ## Table of Contents
 - [Business Problem Statement](#business-problem-statement)
@@ -15,6 +19,11 @@
 - [Installation](#installation)
 - [GitHub Link and Resources](#-github-links--resources)
 
+
+
+---------------------------------------
+-------------------
+
 ## Business Problem Statement
 
 Gym operators and fitness professionals lack an accurate, data-driven method to estimate calories burned during workouts, leading to:
@@ -26,10 +35,10 @@ Gym operators and fitness professionals lack an accurate, data-driven method to 
       - Generic calculations don't account for individual physiology (weight, age, fitness level)
 3.	**Business Impact**
       -	22% member attrition linked to "lack of progress visibility" (IHRSA 2023 data)
-      - $150k/year wasted on trainer time for manual calculations (avg. 50-trainer gym)
+      - Alot of money wasted on trainer time for manual calculations
 
 ## Our Solution:
-<p align="left"> <img src="media/smart_calorie_tracker.png" alt="Solution" width="400" align="right" style="margin-left: 50px;"> Our solution is an AI-powered calorie prediction system that accurately estimates calories burned during workouts by analyzing member profiles and real-time session data. The machine learning model processes 12+ key features—including <em>weight</em>, <em>age</em>, <em>heart rate trends</em>, <em>exercise type</em>, and <em>session duration</em>—to generate personalized calorie burn predictions with <code>99.6%</code> accuracy (<code>R²=0.996</code>) and has been trained on an exercise tracking dataset available <a href="https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset">here on Kaggle</a>. </p>
+<p align="left"> <img src="media/smart_calorie_tracker.png" alt="Solution" width="400" align="right" style="margin-left: 50px;"> Our solution is an AI-powered calorie prediction system that accurately estimates calories burned during workouts by analyzing member profiles and real-time session data. The machine learning model processes 12+ key features—including <em>weight</em>, <em>age</em>, <em>heart rate trends</em>, <em>exercise type</em>, and <em>session duration</em>—to generate personalized calorie burn predictions and has been trained on an exercise tracking dataset available <a href="https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset">here on Kaggle</a>. </p>
 For gym members, this means reliable progress tracking with fewer estimation errors. Trainers benefit from automated calculations, saving time per session previously spent on manual estimates, while gym operators gain a proven tool to reduce member attrition.
 
 Below are some of the common points we have gathered, and our solution addresses all of them:
@@ -53,9 +62,12 @@ The dataset consists of workout session data for 10,000 gym members, including:
 ### Success Criteria
 The success criteria for this project are achieving an `R² > 0.85` (indicating high explanatory power of the model) and a Mean Absolute Error `(MAE) < 50` calories (ensuring practically useful precision in predictions).
 
+> 📊 Model Evaluation Metrics:
+> - **R²**: Measures how well the model explains the variation in calorie burn (closer to 1 = better).
+> - **RMSE**: Average error in predictions (lower = better).
 ### Process
 
-In data understanding and feature engineering the process started with analyzing the exercise_tracking.csv dataset and inspecting its structure, missing values, and key statistics. 
+In data understanding and feature engineering the process starts with analyzing the [exercise_tracking.csv](data/exercise_tracking.csv) dataset and inspecting its structure, missing values, and key statistics. 
 The target variable, `Calories_Burned`, had no missing data. New features like `BMI`, `BPM_Difference`, and `BPM_Increase_from_Rest` were created for better modeling. 
 Categorical variables (`Exercise_Type`, `BMI_Category`, `Gender`) were processed via **one-hot encoding** and **categorical coding**. 
 Missing values in non-target features were addressed later. The goal was to improve predictive accuracy for calorie expenditure.
@@ -171,17 +183,17 @@ Prediction accuracy could potentially be enhanced by incorporating additional da
 ### Project Structure
 ````
 Predicting-Calories-Burned-Capstone_U/
-├── additional_documents/           # Supporting documentation and resources
+├── additional_documents/                               # Supporting documentation and resources
 │   ├── main_notebook_with_plots_and_Solutions.pdf
 │   └── Predicting Calories Burned from Gym.pdf
-├── data/                          # Dataset files
-│   └── exercise_tracking.csv      # Main exercise and calories data
-├── media/                         # Visual assets and plots
+├── data/                                               # Dataset files
+│   └── exercise_tracking.csv                           # Main exercise and calories data
+├── media/                                              # Visual assets and plots
 │   ├── ai_solution.png           
 │   ├── metrics_running.png       
-├── plots/                         # Generated analysis plots
+├── plots/                                              # Generated analysis plots
 │   └── correlation_matrix.png    
-├── main_notebook.ipynb           # Primary analysis notebook
+├── calorie_prediction_final.ipynb                      # Primary analysis notebook
 ├── README.md                    
 └── LICENSE                     
 ````
