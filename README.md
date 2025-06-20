@@ -11,10 +11,10 @@
 - [Initial Process (Exploration, EDA) and Findings](#initial-process-exploration-eda-and-findings)
 - [Modeling Process Summary](#modeling)
 - [Model Performance Results](#modeling-process-summary)
-- [Technical Insights](#technical-insights)
+- [Technical Insights](#-technical-insights)
 - [Conclusion](#conclusion)
-- [Limitations](#limitations)
-- [Next Steps](#next-steps)
+- [Limitations](#-limitations)
+- [Next Steps](#-next-steps)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [GitHub Link and Resources](#-github-links--resources)
@@ -34,7 +34,7 @@ Gym operators and fitness professionals lack an accurate, data-driven method to 
       - Personal trainers spend 30+ minutes/session manually calculating calorie burn
       - Generic calculations don't account for individual physiology (weight, age, fitness level)
 3.	**Business Impact**
-      -	22% member attrition linked to "lack of progress visibility" (IHRSA 2023 data)
+      - Lose members (22% leave due to unclear progress, per IHRSA 2023 fitness industry data) because results aren’t proven.
       - Alot of money wasted on trainer time for manual calculations
 
 ## Our Solution:
@@ -234,3 +234,10 @@ Key Files:
 | 📓 Jupyter Notebook | [View Analysis](https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley/blob/main/main_notebook.ipynb) |
 | 📊 Dataset | [Kaggle Dataset](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset) |
 | 📁 Repository | [GitHub Repo](https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley) |
+
+
+
+### Contact and Further Information
+- Author/Developer: Nabiha Raza 
+- Email: nabiha.raza30@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/nabiha-raza/)
