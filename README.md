@@ -1,6 +1,5 @@
 ##  🔥 AI-Powered Prediction of Calories Burned During Workouts
 ![img.png](media/metrics_running.png)
-Table of Contents
 
 ## Table of Contents
 - [Business Problem Statement](#business-problem-statement)
@@ -14,7 +13,7 @@ Table of Contents
 - [Next Steps](#next-steps)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
+- [GitHub Link and Resources](#-github-links--resources)
 
 ## Business Problem Statement
 
@@ -168,13 +167,9 @@ Prediction accuracy could potentially be enhanced by incorporating additional da
     - Develop an API for real-time calorie burn predictions
     - Integrate with wearable devices or fitness apps
 
-### Link to Jupyter Notebook
 
-[https://github.com/nabiharaza/Predicting-Calories-Burned-Capstone_UCBerkeley/blob/main/main_notebook.ipynb]# Predicting-Calories-Burned-Capstone_UCBerkeley 
-
-##
-
-## Project Structure
+### Project Structure
+````
 Predicting-Calories-Burned-Capstone_U/
 ├── additional_documents/           # Supporting documentation and resources
 │   ├── main_notebook_with_plots_and_Solutions.pdf
@@ -182,15 +177,14 @@ Predicting-Calories-Burned-Capstone_U/
 ├── data/                          # Dataset files
 │   └── exercise_tracking.csv      # Main exercise and calories data
 ├── media/                         # Visual assets and plots
-│   ├── ai_solution.png           # AI/ML solution diagram
-│   ├── metrics_running.png       # Model performance metrics
-│   └── correlation_matrix.png    # Feature correlation visualization
+│   ├── ai_solution.png           
+│   ├── metrics_running.png       
 ├── plots/                         # Generated analysis plots
-│   └── correlation_matrix.png    # Data correlation analysis
+│   └── correlation_matrix.png    
 ├── main_notebook.ipynb           # Primary analysis notebook
-├── README.md                     # Project documentation
-└── LICENSE                       # Project license
-
+├── README.md                    
+└── LICENSE                     
+````
 ## Installation
 
 ### Prerequisites
@@ -221,8 +215,7 @@ Key Files:
 2. `data/exercise_tracking.csv`: Dataset with 10,000 gym member sessions
 3. `additional_documents/`: Detailed project reports and methodology
 
-Jupyter Notebook Link
-## 🔗 Links & Resources
+## 🔗 GitHub Links & Resources
 
 | Resource | Link |
 |----------|------|
